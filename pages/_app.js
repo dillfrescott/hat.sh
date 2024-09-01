@@ -17,6 +17,7 @@ function MyApp({ Component, pageProps }) {
           {t("sub_title")}
         </title>
         <link rel="icon" href="/favicon.ico" />
+        <script defer src="https://umami.dill.moe/script.js" data-website-id="f3e95ed5-59cb-4231-9e61-091a0d5d9dc7"></script>
 
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
