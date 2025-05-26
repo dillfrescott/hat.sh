@@ -43,14 +43,6 @@ export default function NavAppBar() {
               {t("about")}
             </Button>
 
-            <IconButton
-              href="https://github.com/sh-dv/hat.sh"
-              target="_blank"
-              rel="noopener"
-            >
-              <GitHubIcon />
-            </IconButton>
-
             <Settings />
           </Toolbar>
         </Container>
