@@ -327,12 +327,9 @@ export default function EncryptionPanel() {
 
   const handleMethodStep = () => {
     if (encryptionMethodState === "secretKey") {
-      if (Password.length >= 12) {
-        setActiveStep(2);
-      } else {
-        setShortPasswordError(true);
-      }
+      setActiveStep(2);
     }
+  };
 
     if (encryptionMethodState === "publicKey") {
       navigator.serviceWorker.ready.then((reg) => {
