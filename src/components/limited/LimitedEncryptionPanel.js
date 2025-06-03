@@ -262,7 +262,6 @@ const LimitedEncryptionPanel = () => {
     if (encryptionMethodState === "secretKey") {
       setActiveStep(2);
     }
-  };
 
     if (encryptionMethod === "publicKey") {
       let mode = "test";

@@ -329,7 +329,6 @@ export default function EncryptionPanel() {
     if (encryptionMethodState === "secretKey") {
       setActiveStep(2);
     }
-  };
 
     if (encryptionMethodState === "publicKey") {
       navigator.serviceWorker.ready.then((reg) => {
