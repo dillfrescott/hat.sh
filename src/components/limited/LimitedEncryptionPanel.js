@@ -259,13 +259,10 @@ const LimitedEncryptionPanel = () => {
   };
 
   const handleMethodStep = () => {
-    if (encryptionMethod === "secretKey") {
-      if (Password.length >= 12) {
-        setActiveStep(2);
-      } else {
-        setShortPasswordError(true);
-      }
+    if (encryptionMethodState === "secretKey") {
+      setActiveStep(2);
     }
+  };
 
     if (encryptionMethod === "publicKey") {
       let mode = "test";
